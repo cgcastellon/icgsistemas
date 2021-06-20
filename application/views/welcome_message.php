@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
 
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="text-center">
 			<h1>Welcome to ICG Systems!</h1>
 
-			<img src="<?php echo base_url('assets/imgs/construccion.jpg') ?>" class="img-fluid" width="70%" alt="">
+			<img src="assets/imgs/construccion.jpg" class="img-fluid" width="70%" alt="">
 		</div>
 	</div>
 
