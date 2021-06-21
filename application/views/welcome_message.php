@@ -17,6 +17,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<h1>Welcome to ICG Systems!</h1>
 
 			<img src="assets/imgs/construccion.jpg" class="img-fluid" width="70%" alt="">
+
+			<pre><?php echo $this->router->fetch_class() ?></pre>
+
+			<pre><?php echo $this->router->fetch_method() ?></pre>
 		</div>
 	</div>
 
